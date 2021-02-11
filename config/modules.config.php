@@ -17,7 +17,6 @@ return [
     'Laminas\Mvc\Plugin\Identity',
     'Laminas\Mvc\Plugin\Prg',
     'Laminas\Session',
-    'Laminas\Mvc\I18n',
     'Laminas\Form',
     'Laminas\I18n',
     'Laminas\Mvc\Console',
