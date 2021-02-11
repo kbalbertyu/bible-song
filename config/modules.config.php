@@ -18,7 +18,6 @@ return [
     'Laminas\Mvc\Plugin\Prg',
     'Laminas\Session',
     'Laminas\Form',
-    'Laminas\I18n',
     'Laminas\Mvc\Console',
     'Laminas\Log',
     'Laminas\InputFilter',
@@ -29,7 +28,6 @@ return [
     'Laminas\Cache',
     'Laminas\Router',
     'Laminas\Validator',
-    'Laminas\DeveloperTools',
     'Laminas\Diactoros',
     'Application',
 ];

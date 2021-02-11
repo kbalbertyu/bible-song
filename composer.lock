@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20c52ce4b4d45fb9bd84020deed836ac",
+    "content-hash": "c4d70cd36c695d117a275c21a5e3b2ad",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -4354,6 +4354,76 @@
                 "source": "https://github.com/php-fig/simple-cache/tree/master"
             },
             "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "rafalli/bjy-profiler",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rafalli/bjy-profiler.git",
+                "reference": "3d588e6a13eb764ea142e4d013e641b36c56303f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rafalli/bjy-profiler/zipball/3d588e6a13eb764ea142e4d013e641b36c56303f",
+                "reference": "3d588e6a13eb764ea142e4d013e641b36c56303f",
+                "shasum": ""
+            },
+            "require": {
+                "laminas/laminas-db": "^2.7",
+                "laminas/laminas-log": "^2.7",
+                "laminas/laminas-modulemanager": "^2.7",
+                "laminas/laminas-servicemanager": "^3.0.3",
+                "php": "^5.5 || ^7.0"
+            },
+            "require-dev": {
+                "laminas/laminas-mvc": "^2.7 || ^3.0",
+                "phpunit/phpunit": "^4.0 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "zf": {
+                    "module": "BjyProfiler",
+                    "config-provider": "BjyProfiler\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BjyProfiler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Youngblood",
+                    "email": "bx.youngblood@gmail.com",
+                    "homepage": "http://bjyoungblood.com/"
+                },
+                {
+                    "name": "Andrey N. Mokhov",
+                    "email": "github@mokhov.com",
+                    "homepage": "https://github.com/andrey-mokhov"
+                },
+                {
+                    "name": "Rafal Linca",
+                    "email": "kontakt@rafalllinca.pl",
+                    "homepage": "https://rafallinca.pl"
+                }
+            ],
+            "description": "Database profiler for Laminas\\Db. Module forked from andrey-mokhov/bjy-profiler",
+            "homepage": "https://github.com/rafalli/BjyProfiler",
+            "keywords": [
+                "db",
+                "laminas",
+                "profiler"
+            ],
+            "support": {
+                "source": "https://github.com/rafalli/bjy-profiler/tree/master"
+            },
+            "time": "2020-02-26T19:12:30+00:00"
         },
         {
             "name": "webimpress/safe-writer",

@@ -2,6 +2,7 @@
 .idea/
 vendor/
 config/development.config.php
+config/autoload/local.php
 data/cache/*
 !data/cache/.gitkeep
 public/js/3rd/
