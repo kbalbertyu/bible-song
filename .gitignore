@@ -1,0 +1,10 @@
+.vagrant/
+.idea/
+vendor/
+config/development.config.php
+data/cache/*
+!data/cache/.gitkeep
+public/js/3rd/
+public/css/3rd/
+phpunit.xml
+.phpunit.result.cache
